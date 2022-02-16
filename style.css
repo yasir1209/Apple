@@ -1,0 +1,693 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    width: 100%;
+    height: 50px;
+    background-color:#333333;
+    margin-top: 0%;
+    display: flex;
+    
+}
+#box1{
+    position: fixed;
+   
+}
+.header ul{
+    display: flex;
+    
+}
+.header ul li{
+    list-style: none;
+    padding-left: 30px;
+    padding-top: 1px;
+    padding-right: 20px;
+    padding-bottom: 1px;
+}
+.header li a{
+    text-decoration: none;
+    color: white;
+}
+.header img{
+    width: 30px;
+    height: 30px;
+    margin-top: -6px;
+}
+.header a:hover{
+    color: brown;
+}
+.second{
+    background-color: #FFFFFF;  
+     width: 100%;
+    height: 60px;
+    margin-top: -20px;
+    
+}
+.secona-a h3{
+    margin-left: 90px;
+    padding-top: 15px;
+    font-family: 'Roboto Slab', serif;
+    color: #494949;
+  
+}
+
+.second-b ul{
+    margin-left: 700px;
+    display: flex;
+    
+   
+}
+.second-b li{
+    list-style: none;
+    margin-top: -40px;
+    
+   
+    
+}
+.second-b a{
+    text-decoration: none;
+    padding: 10px 20px;
+    font-family: 'Roboto Slab', serif;
+    color: black;
+    
+    
+}
+.second-b a:hover{
+    color: #0077ED;
+    cursor: pointer;
+    
+}
+.second-c button{
+    margin-left: 1200px;
+    border-radius: 20px;
+    padding: 2px ;
+    text-align: center;
+    width: 50px;
+    height: 25px;
+    color: white;
+    border: none;
+    background-color:#0077ED;
+}
+.second-c button:hover{
+    cursor: pointer;
+}
+.second-c{
+    margin-top: -58px;
+}
+.third{
+    background-color: #F5F5F7;
+    width: 100%;
+    height: 50px;
+    margin-top: -20px;
+}
+.third h3{
+    margin-left: 140px;
+    padding-top: 10px;
+    font-family: 'Roboto Slab', serif;
+}
+.third ul li{
+    list-style: none;
+    margin-left: 800px;
+margin-top: -40px;
+}
+.third li a{
+    text-decoration: none;
+    font-family: 'Roboto Slab', serif;
+   color: #0077ED;
+}
+.third a:hover{
+    text-decoration: underline;
+}
+.fourth{
+    background-image: url("images/iphone.jpg"); 
+    
+    width: 100%;
+    height: 600px;
+    margin-top: -20px;
+    
+    background-position: center;
+    
+}
+.fourth h3{
+    text-align: center;
+    padding-top: 35px;
+     font-family: 'Roboto Slab', serif;
+}
+.fourth h1{
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    font-size: 50px;
+}
+.fourth-b ul{
+   margin-left: 550px;
+   display: flex;
+   font-family: 'Roboto Slab', serif;
+   
+}
+.fourth-b li a{
+    text-decoration: none;
+    color: #0077ED;
+}
+.fourth-b ul li{
+    list-style: none;
+    padding: 10px 10px;
+}
+.fourth-b li a:hover{
+    text-decoration: underline;
+}
+
+.fifth{
+    background-image: url("images/2phone.jpg"); 
+    
+    width: 100%;
+    height: 600px;
+    margin-top: -40px;
+    background-position: center;
+    
+}
+.fifth h3{
+    text-align: center;
+    padding-top: 25px;
+     font-family: 'Roboto Slab', serif;
+     font-size: 60px;
+     color: white;
+     
+}
+.fifth h1{
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    font-size: 30px;
+    color: #F5BAE2;
+    margin-top: -30px;
+}
+.fifth-b ul{
+   margin-left: 550px;
+   display: flex;
+   font-family: 'Roboto Slab', serif;
+   
+}
+.fifth-b li a{
+    text-decoration: none;
+    color: #0077ED;
+}
+.fifth-b ul li{
+    list-style: none;
+    padding: 10px 10px;
+}
+.fifth-b li a:hover{
+    text-decoration: underline;
+}
+.sixth{
+    background-image: url("images/watch-phone.jpg"); 
+    width: 100%;
+    height: 600px;
+    margin-top: -20px;
+    background-position: center;
+    
+}
+.sixth h3{
+    text-align: center;
+    padding-top: 45px;
+     font-family: 'Roboto Slab', serif;
+     color: #7F5481;
+     font-size: 30px;
+}
+.sixth h1{
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    font-size: 50px;
+    margin-top: -25px;
+    color: #602D62;
+}
+.sixth-b ul{
+   margin-left: 600px;
+   display: flex;
+   font-family: 'Roboto Slab', serif;
+   font-size: 30px;
+   
+}
+.sixth-b li a{
+    text-decoration: none;
+    color: #0077ED;
+}
+.sixth-b ul li{
+    list-style: none;
+    padding: 1px 10px;
+}
+.sixth-b li a:hover{
+    text-decoration: underline;
+}
+.seventh{
+    width: 99%;
+    height: 600px;
+    display: flex;
+    margin-top: 20px ;
+    
+
+}
+.seventh-a{
+ width: 100%;
+ height: 600px;
+ margin-left: 10px;
+ background-image: url("images/apple-watch.jpg");
+ object-fit: cover;
+ background-repeat: no-repeat;
+ background-position: center; 
+ background-repeat: no-repeat; 
+ background-size: cover;
+}
+.seventh-a h4{
+    margin-left: 320px;
+    margin-top: 40px;
+    color: #D18252;
+    font-family: 'Roboto Slab', serif; 
+}
+.seventh-a img{
+    width: 35px;
+    height: 35px;
+    
+}
+.seventh-a li{
+    margin-left: 200px;
+    text-decoration: none;
+    list-style: none;
+}
+.seventh-a li a{
+    font-size: 40px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Roboto Slab', serif;
+}
+.seventh-a h5{
+    margin-left: 300px;
+    margin-top: -20px;
+    color: #D18252;
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+}
+.seventh-a h6{
+    margin-left: 200px;
+    margin-top: -20px;
+    color: #747476;
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+}
+.sevenths-b ul li{
+    display: inline;
+    margin-right: -150px;
+}
+.sevenths-b li a{
+    font-size: 20px;
+    color: #0077ED;
+}
+ .seventh-b{
+ width: 100%;
+  margin-left: 20px;
+ height: 600px;
+ margin-right: 10px;
+ background-image: url("images/orange.jpg");
+ object-fit: cover;
+ background-repeat: no-repeat;
+ background-position: center; 
+ background-repeat: no-repeat; 
+ background-size: cover
+}
+.seventh-b h1{
+    font-family: 'Roboto Slab', serif;
+    font-size: 40px;
+    margin-left: 180px;
+    padding-top: 20px;
+}
+.seventh-b h4{
+    font-family: 'Roboto Slab', serif;
+    margin-left: 200px;
+    font-size: 20px;
+    color: #4E3A17;
+
+}
+
+.seventhss-b  li{
+      list-style: none;
+      margin-left: 230px;
+}
+.seventhss-b li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif;
+    color: #AD850E;
+}
+.seventhss-b li a:hover{
+    text-decoration: underline;
+    color: #333333;
+}
+.eight{
+    width: 99%;
+    height: 600px;
+    margin-top: 20px ;
+    display: flex;
+}
+.eight-a{
+    width: 100%;
+    height: 600px;
+    margin-left: 10px;
+    background-image: url("images/3-watch.jpg");
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    margin-right: 4px;
+   }
+ .eight-a h5{
+     margin-left: 250px;
+     color: #D18252;
+     font-family: 'Roboto Slab', serif;
+ }
+ .eight-a h1{
+    margin-left: 150px;
+    font-family: 'Roboto Slab', serif;
+    margin-top: -10px;
+ }
+ .eight-a h3{
+    margin-left: 150px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 18px;
+    color: #747476;
+ }
+ .eights-b  li{
+    list-style: none;
+    margin-left: 230px;
+}
+.eights-b li a{
+  text-decoration: none;
+  font-size: 20px;
+  font-family: 'Roboto Slab', serif;
+  color: #0077ED;
+}
+
+   .eight-b{
+    width: 100%;
+    height: 600px;
+    margin-left: 10px;
+    background-image: url("images/1-watch.jpg");
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    margin-right: 8px;
+   }
+.eight-b h1{
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    margin-left: 200px;
+}
+.eight-b h3{
+    color: #747476;
+    font-family: 'Roboto Slab', serif;
+    margin-left: 160px;
+}
+.eightss-b ul{
+    display: flex;
+    
+   
+}
+.eightss-b li {
+    margin-left: 140px;
+    font-family: 'Roboto Slab', serif;
+    list-style: none;
+    
+    
+}
+.eightss-b a{
+    text-decoration: none;
+    color: #0077ED;
+
+}
+.eightss-b li a:hover{
+    text-decoration: underline;
+    color: #0077ED;
+}
+
+.Ninth{
+    width: 99%;
+    height: 600px;
+    display: flex;
+    margin-top: 20px ;
+    
+
+}
+.ninth-a{
+ width: 100%;
+ height: 600px;
+ margin-left: 10px;
+ background-image: url("images/card.jpg");
+ object-fit: cover;
+ background-repeat: no-repeat;
+ background-position: center; 
+ background-repeat: no-repeat; 
+ background-size: cover;
+}
+
+.ninth-a img{
+    width: 35px;
+    height: 35px;
+    
+}
+.ninth-a li{
+    margin-left: 200px;
+    padding-top: 20px;
+    text-decoration: none;
+    list-style: none;
+    
+}
+.ninth-a li a{
+    font-size: 40px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Roboto Slab', serif;
+}
+
+.ninth-a h6{
+    margin-left: 200px;
+    margin-top: -10px;
+    color: #747476;
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+}
+.ninths-b ul li{
+    display: inline;
+    margin-right: -120px;
+    margin-left: 150px;
+    
+    
+}
+.ninths-b li a{
+    font-size: 20px;
+    color: #0077ED;
+    
+    
+}
+
+.ninth-b{
+    width: 100%;
+     margin-left: 20px;
+    height: 600px;
+    margin-right: 10px;
+    background-image: url("images/boy-girl.jpg");
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover
+   }
+   
+   .ninthss-b  li{
+         list-style: none;
+         margin-left: 230px;
+         margin-top: 160px;
+        
+
+   }
+   .ninthss-b li a{
+       text-decoration: none;
+       font-size: 23px;
+       font-family: 'Roboto Slab', serif;
+       color: #AD850E;
+       
+       
+   }
+   .ninthss-b li a:hover{
+       text-decoration: underline;
+       color: #333333;
+   }
+.ninthss-b img{
+    width: 50px;
+    height: 50px;
+    margin-left: 380px;
+    margin-top: -50px;
+}
+
+.footer{
+    width: 100%;
+    height: 1200px;
+    background-color: #f5f5f7;
+}
+.footer p{
+    margin-left: 90px;
+    margin-right: 50px;
+    padding-top: 30px;
+    font-size: small;
+    font-family: 'Roboto Slab', serif;
+    color:  #6e6e73;
+}
+.footer hr{
+    margin-left: 80px;
+    margin-right: 100px;
+}
+.line ul{
+   display: flex;
+}
+.line ul li{
+    text-decoration: none;
+    list-style: none;
+    margin-left: 20px;
+    padding-left: 80px;
+}
+.first ul{
+    display: block;
+}
+.first ul li{
+margin-left: -120px;
+margin-top: 10px;
+font-family: 'Roboto Slab', serif;
+font-weight: 1000px;
+
+}
+.services-b{
+    margin-top: 40px;
+}
+.services-b ul{
+    margin-top: 20px;
+}
+.last ul{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 90px;
+}
+.last li{
+  margin-left: 10px;
+    list-style: none;
+    font-family: 'Roboto Slab', serif;
+}
+.last li a{
+    text-decoration: none;
+}
+.last a:hover{
+    text-decoration: underline;
+    color: #0077ED;
+}
+.End{
+    width: 100%;
+    height: 80px;
+     background-color: #F5F5F7; 
+
+}
+.footer-a h3{
+     margin-left: 50px;
+     padding-top: 30px;
+     font-family: 'Roboto Slab', serif;
+     color: #747476;
+}
+.End .footer-b ul{
+    display: flex;
+    margin-left: 550px;
+    margin-top: -40px;
+   
+    
+}
+.End .footer-b li{
+    list-style: none;
+   display: inline;
+   
+ 
+}
+.End .footer-b a{
+    text-decoration: none;
+    font-family: 'Roboto Slab', serif;
+     padding: 5px 10px;  
+     color: #747476;
+}
+.footer-b a:hover{
+    text-decoration: underline;
+    color: #0077ED;
+}
+
+.footer-c ul{
+    display: flex;
+    margin-left: 1150px;
+    margin-top: -35px;
+   
+}
+
+.End .footer-c li{
+    list-style: none;
+   display: inline;
+   
+ 
+}
+.End .footer-c a{
+    text-decoration: none;
+    font-family: 'Roboto Slab', serif;
+     padding: 5px 10px;  
+     color: #747476;
+    
+}
+.footer-c a:hover{
+    text-decoration: underline;
+    color: #0077ED;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
